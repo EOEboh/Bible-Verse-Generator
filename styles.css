@@ -20,14 +20,14 @@ body{
     body{
         background-image: url('./img/bible-bg2.jpg');
         background-repeat: repeat-x;
-        background-color: rgb(85, 17, 31);
+        background-color: #912323;
     }
 }
 
 h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(85, 17, 31);
+    color: #912323;
 
 }
 #time{
@@ -36,7 +36,7 @@ h1{
 #datetime{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%;
-    color: rgb(85, 17, 31);
+    color: #912323;
     text-align: end;
 }
 #displayVerse{
@@ -50,7 +50,7 @@ h1{
 }
 #button{
     padding: 1rem;
-    background-color:rgb(85, 17, 31);
+    background-color:#912323;
     cursor: pointer;
     font-weight: 600;
     font-size: large;
@@ -77,8 +77,8 @@ h1{
     } 
 }
 .fa-github{
-    color: brown ;
+    color: #912323 ;
 }
 .fa-user-circle{
-    color: darkolivegreen;
+    color: #912323;
 }
