@@ -1,6 +1,7 @@
+// JS Code for getting a date and time within one's locale 
 let date = new Date();
-document.getElementById('datetime').innerHTML = date.toLocaleString()
-
+document.getElementById('datetime').innerHTML = date.toLocaleTimeString()
+// Array for storing the verses to be called at random
 let verses = [
     " \"For it is by grace you have been saved, through faith--and this is not from yourselves, it is the gift of God--\" <br><b>Ephesians 2:8<b>",
     "\"But he said to me, 'My grace is sufficient for you, for my power is made perfect In weakness.' Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.\"<br><b> 2nd Corinthians 12:9<b>",
@@ -46,6 +47,7 @@ let verses = [
 
 
 ]
+// JS Code for accessing the arrays at random
 function newVerse(){
     let randomQuotes = Math.floor(Math.random() * (verses.length));
     document.getElementById('displayVerse').innerHTML = verses [randomQuotes];

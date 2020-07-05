@@ -7,12 +7,27 @@ body{
     padding: 5px;
 }
 body{
-    background-image: url(./img/ocean.jpg);
+    background-image: url('./img/bible-bg2.jpg');
+    background-repeat: repeat;
 }
+@media all and (max-width:700px){
+    body{
+        background-image: url('./img/bible-bg2.jpg');
+        background-repeat: no-repeat;
+    }
+}
+ @media all and (max-width:1024px){
+    body{
+        background-image: url('./img/bible-bg2.jpg');
+        background-repeat: repeat-x;
+        background-color: rgb(85, 17, 31);
+    }
+}
+
 h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: darkgrey;
+    color: rgb(85, 17, 31);
 
 }
 #time{
@@ -21,8 +36,8 @@ h1{
 #datetime{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 150%;
-    color: floralwhite;
-    text-align: center;
+    color: rgb(85, 17, 31);
+    text-align: end;
 }
 #displayVerse{
     background-color: burlywood;
@@ -35,20 +50,35 @@ h1{
 }
 #button{
     padding: 1rem;
-    background-color: darkgreen;
+    background-color:rgb(85, 17, 31);
     cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    color: white;
 }
 .icon{
     text-align: center;
 }
-.fa-twitter{
-    color: blue;
+
+.left{
+    float: left;
+    width: 50%;
 }
-.contributors a{
-    font-size: 150%;
-    color: cornsilk;
-    text-decoration: none;
+.right{
+    float: right;
 }
-.contributors{
-    text-align: center;
+@media all and (min-width:1024px){
+    .left{
+        float: left;
+        width: 50%;
+    }
+    .right{
+        float: right;
+    } 
+}
+.fa-github{
+    color: brown ;
+}
+.fa-user-circle{
+    color: darkolivegreen;
 }
