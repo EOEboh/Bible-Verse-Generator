@@ -30,12 +30,10 @@ h1{
     color: #912323;
 
 }
-#time{
-    text-align: center;
-}
+
 #datetime{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 150%;
+    font-size: 100%;
     color: #912323;
     text-align: end;
 }
