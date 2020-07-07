@@ -54,6 +54,18 @@ h1{
     font-size: large;
     color: white;
 }
+/* Bible Quiz button */
+#start{
+    padding: 1rem;
+    background-color: #912323;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    color: white;
+}
+#btn2{
+    text-align: center;
+}
 .icon{
     text-align: center;
 }
