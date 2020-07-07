@@ -107,7 +107,7 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: "794. Where was David born? ",
+        question: " Where was David born? ",
         answers: {
           a: "Beersheba",
           b: "Jerusalem",
@@ -117,7 +117,7 @@
         correctAnswer: "c"
       },
       {
-        question: "371. What profession did Zebedee, father of James and John, have?  ",
+        question: " What profession did Zebedee, father of James and John, have?  ",
         answers: {
           a: "Carpenter",
           b: "Tax Collector",
@@ -127,7 +127,7 @@
         correctAnswer: "c"
       },
       {
-        question: " 389. What was Noah’s ark made out of?",
+        question: " What was Noah’s ark made out of?",
         answers: {
           a: "Cedar",
           b: "Raff wood",
@@ -137,7 +137,7 @@
         correctAnswer: "d"
       },
       {
-        question: "27. Which book of the Bible records many of the hymns David wrote?",
+        question: " Which book of the Bible records many of the hymns David wrote?",
         answers: {
           a: "Songs of Solomon",
           b: "Psalms",
@@ -147,7 +147,7 @@
         correctAnswer: "b"
       },
       {
-        question: "36. Who was David’s father? ",
+        question: " Who was David’s father? ",
         answers: {
           a: "Torah",
           b: "Saul",
@@ -157,7 +157,7 @@
         correctAnswer: "c"
       },
       {
-        question: "451. On what island was John when he was given the vision of Revelation?  ",
+        question: " On what island was John when he was given the vision of Revelation?  ",
         answers: {
           a: "Tarshish",
           b: "Cyprus",
@@ -167,7 +167,7 @@
         correctAnswer: "c"
       },
       {
-        question: "507. What did the Queen of Sheba give to Solomon? ",
+        question: " What did the Queen of Sheba give to Solomon? ",
         answers: {
           a: "120 talents of gold, spices and precious stones",
           b: "240 grams of rose and fine linen",
@@ -177,7 +177,7 @@
         correctAnswer: "a"
       },
       {
-        question: "614. Who stole her father’s household gods?  ",
+        question: " Who stole her father’s household gods?  ",
         answers: {
           a: "Rebekah",
           b: "Rachel",
@@ -187,7 +187,7 @@
         correctAnswer: "b"
       },
       {
-        question: " 710. Who were the first two disciples to be called?  ",
+        question: " Who were the first two disciples to be called?  ",
         answers: {
           a: "James and John",
           b: "Simon Peter and Andrew",
@@ -197,7 +197,7 @@
         correctAnswer: "b"
       },
       {
-        question: "  711. How many sons did Gideon have?  ",
+        question: " How many sons did Gideon have?  ",
         answers: {
           a: "Twenty-five",
           b: "Thirty-five",
@@ -207,7 +207,7 @@
         correctAnswer: "d"
       },
       {
-        question: " 729. Who came into Galilee preaching the Kingdom of God?  ",
+        question: "Who came into Galilee preaching the Kingdom of God?  ",
         answers: {
           a: "Jesus",
           b: "Paul",
