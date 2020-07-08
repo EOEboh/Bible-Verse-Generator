@@ -217,7 +217,7 @@
         correctAnswer: "a"
       },
       {
-        question: " 195. What was the name of Hagar’s son? ",
+        question: " What was the name of Hagar’s son? ",
         answers: {
           a: "Isaac",
           b: "Esau",
@@ -227,7 +227,7 @@
         correctAnswer: "d"
       },
       {
-        question: "201. What animal spoke to Balaam?  ",
+        question: " What animal spoke to Balaam?  ",
         answers: {
           a: "Ass",
           b: "Lion",
@@ -237,7 +237,7 @@
         correctAnswer: "c"
       },
       {
-        question: " 218. Which prophet anointed David as king?  ",
+        question: " Which prophet anointed David as king?  ",
         answers: {
           a: "Nathan",
           b: "Samuel",
@@ -247,7 +247,7 @@
         correctAnswer: "b"
       },
       {
-        question: " 611. Who was Paul with when he wrote the letter to Philemon?   ",
+        question: " Who was Paul with when he wrote the letter to Philemon?   ",
         answers: {
           a: "Titus",
           b: "James",
@@ -257,7 +257,7 @@
         correctAnswer: "d"
       },
       {
-        question: "  669. Which is the shortest Psalm?   ",
+        question: " Which is the shortest Psalm?   ",
         answers: {
           a: "Psalm 150",
           b: "Psalm 100",
@@ -267,7 +267,7 @@
         correctAnswer: "c"
       },
       {
-        question: "901. One of the ten plagues of Egypt was the plague of boils, but which number was it? ",
+        question: " One of the ten plagues of Egypt was the plague of boils, but which number was it? ",
         answers: {
           a: "Third",
           b: "Seventh",
@@ -277,7 +277,7 @@
         correctAnswer: "d"
       },
       {
-        question: "10. What relationship was Ruth to Naomi?  ",
+        question: " What relationship was Ruth to Naomi?  ",
         answers: {
           a: "Daughter",
           b: "Niece",
@@ -287,7 +287,7 @@
         correctAnswer: "c"
       },
       {
-        question: "261. What was Jesus’ first miracle?  ",
+        question: " What was Jesus’ first miracle?  ",
         answers: {
           a: "Changing water into wine",
           b: "Curing the nobleman's son",
@@ -297,7 +297,7 @@
         correctAnswer: "a"
       },
       {
-        question: "237. Which of David’s sons rebelled against him?  ",
+        question: " Which of David’s sons rebelled against him?  ",
         answers: {
           a: "Adonijah",
           b: "Amnon",
