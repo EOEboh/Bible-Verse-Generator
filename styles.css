@@ -166,11 +166,10 @@ button a{
   margin-top: 40px;
 }
 /* Home button at the bottom of quiz.html */
-.icon1{
+.icon3{
     float: left;
     padding: 5px;
     color: white;
-    background-color: #912323;
   }
   a{
       color: white;
