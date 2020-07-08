@@ -107,7 +107,7 @@
     const submitButton = document.getElementById('submit');
     const myQuestions = [
       {
-        question: " Where was David born? ",
+        question: " <b>Question 1 of 20<b> <br/> Where was David born? ",
         answers: {
           a: "Beersheba",
           b: "Jerusalem",
@@ -117,7 +117,7 @@
         correctAnswer: "c"
       },
       {
-        question: " What profession did Zebedee, father of James and John, have?  ",
+        question: " <b>Question 2 of 20<b> <br/>What profession did Zebedee, father of James and John, have?  ",
         answers: {
           a: "Carpenter",
           b: "Tax Collector",
@@ -127,7 +127,7 @@
         correctAnswer: "c"
       },
       {
-        question: " What was Noah’s ark made out of?",
+        question: "<b>Question 3 of 20<b> <br/> What was Noah’s ark made out of?",
         answers: {
           a: "Cedar",
           b: "Raff wood",
@@ -137,7 +137,7 @@
         correctAnswer: "d"
       },
       {
-        question: " Which book of the Bible records many of the hymns David wrote?",
+        question: " <b>Question 4 of 20<b> <br/>Which book of the Bible records many of the hymns David wrote?",
         answers: {
           a: "Songs of Solomon",
           b: "Psalms",
@@ -147,7 +147,7 @@
         correctAnswer: "b"
       },
       {
-        question: " Who was David’s father? ",
+        question: " <b>Question 5 of 20<b> <br/>Who was David’s father? ",
         answers: {
           a: "Torah",
           b: "Saul",
@@ -157,7 +157,7 @@
         correctAnswer: "c"
       },
       {
-        question: " On what island was John when he was given the vision of Revelation?  ",
+        question: "<b>Question 6 of 20<b> <br/> On what island was John when he was given the vision of Revelation?  ",
         answers: {
           a: "Tarshish",
           b: "Cyprus",
@@ -167,7 +167,7 @@
         correctAnswer: "c"
       },
       {
-        question: " What did the Queen of Sheba give to Solomon? ",
+        question: "<b>Question 7 of 20<b> <br/> What did the Queen of Sheba give to Solomon? ",
         answers: {
           a: "120 talents of gold, spices and precious stones",
           b: "240 grams of rose and fine linen",
@@ -177,7 +177,7 @@
         correctAnswer: "a"
       },
       {
-        question: " Who stole her father’s household gods?  ",
+        question: "<b>Question 8 of 20<b> <br/> Who stole her father’s household gods?  ",
         answers: {
           a: "Rebekah",
           b: "Rachel",
@@ -187,7 +187,7 @@
         correctAnswer: "b"
       },
       {
-        question: " Who were the first two disciples to be called?  ",
+        question: " <b>Question 9 of 20<b> <br/>Who were the first two disciples to be called?  ",
         answers: {
           a: "James and John",
           b: "Simon Peter and Andrew",
@@ -197,7 +197,7 @@
         correctAnswer: "b"
       },
       {
-        question: " How many sons did Gideon have?  ",
+        question: "<b>Question 10 of 20<b> <br/> How many sons did Gideon have?  ",
         answers: {
           a: "Twenty-five",
           b: "Thirty-five",
@@ -207,7 +207,7 @@
         correctAnswer: "d"
       },
       {
-        question: "Who came into Galilee preaching the Kingdom of God?  ",
+        question: " <b>Question 11 of 20<b> <br/>Who came into Galilee preaching the Kingdom of God?  ",
         answers: {
           a: "Jesus",
           b: "Paul",
@@ -217,7 +217,7 @@
         correctAnswer: "a"
       },
       {
-        question: " What was the name of Hagar’s son? ",
+        question: "<b>Question 12 of 20<b> <br/> What was the name of Hagar’s son? ",
         answers: {
           a: "Isaac",
           b: "Esau",
@@ -227,7 +227,7 @@
         correctAnswer: "d"
       },
       {
-        question: " What animal spoke to Balaam?  ",
+        question: "<b>Question 13 of 20<b> <br/> What animal spoke to Balaam?  ",
         answers: {
           a: "Ass",
           b: "Lion",
@@ -237,7 +237,7 @@
         correctAnswer: "c"
       },
       {
-        question: " Which prophet anointed David as king?  ",
+        question: "<b>Question 14 of 20<b> <br/> Which prophet anointed David as king?  ",
         answers: {
           a: "Nathan",
           b: "Samuel",
@@ -247,7 +247,7 @@
         correctAnswer: "b"
       },
       {
-        question: " Who was Paul with when he wrote the letter to Philemon?   ",
+        question: "<b>Question 15 of 20<b> <br/> Who was Paul with when he wrote the letter to Philemon?   ",
         answers: {
           a: "Titus",
           b: "James",
@@ -257,7 +257,7 @@
         correctAnswer: "d"
       },
       {
-        question: " Which is the shortest Psalm?   ",
+        question: "<b>Question 16 of 20<b> <br/> Which is the shortest Psalm?   ",
         answers: {
           a: "Psalm 150",
           b: "Psalm 100",
@@ -267,7 +267,7 @@
         correctAnswer: "c"
       },
       {
-        question: " One of the ten plagues of Egypt was the plague of boils, but which number was it? ",
+        question: " <b>Question 17 of 20<b> <br/>One of the ten plagues of Egypt was the plague of boils, but which number was it? ",
         answers: {
           a: "Third",
           b: "Seventh",
@@ -277,7 +277,7 @@
         correctAnswer: "d"
       },
       {
-        question: " What relationship was Ruth to Naomi?  ",
+        question: "<b>Question 18 of 20<b> <br/> What relationship was Ruth to Naomi?  ",
         answers: {
           a: "Daughter",
           b: "Niece",
@@ -287,7 +287,7 @@
         correctAnswer: "c"
       },
       {
-        question: " What was Jesus’ first miracle?  ",
+        question: "<b>Question 19 of 20<b> <br/> What was Jesus’ first miracle?  ",
         answers: {
           a: "Changing water into wine",
           b: "Curing the nobleman's son",
@@ -297,7 +297,7 @@
         correctAnswer: "a"
       },
       {
-        question: " Which of David’s sons rebelled against him?  ",
+        question: "<b>Question 20 of 20<b> <br/> Which of David’s sons rebelled against him?  ",
         answers: {
           a: "Adonijah",
           b: "Amnon",
