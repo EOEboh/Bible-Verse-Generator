@@ -70,7 +70,7 @@
       });
   
       // show number of correct answers out of total
-      resultsContainer.innerHTML = `${numCorrect} out of ${myQuestions.length}`;
+      resultsContainer.innerHTML = `<h1> You got ${numCorrect} out of ${myQuestions.length}</h1>`;
     }
   
     function showSlide(n) {
@@ -215,6 +215,96 @@
           d: "Peter"
         },
         correctAnswer: "a"
+      },
+      {
+        question: " 195. What was the name of Hagar’s son? ",
+        answers: {
+          a: "Isaac",
+          b: "Esau",
+          c: "Seth",
+          d: "Ishmael"
+        },
+        correctAnswer: "d"
+      },
+      {
+        question: "201. What animal spoke to Balaam?  ",
+        answers: {
+          a: "Ass",
+          b: "Lion",
+          c: "Donkey",
+          d: "Horse"
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: " 218. Which prophet anointed David as king?  ",
+        answers: {
+          a: "Nathan",
+          b: "Samuel",
+          c: "Micah",
+          d: "Hosea"
+        },
+        correctAnswer: "b"
+      },
+      {
+        question: " 611. Who was Paul with when he wrote the letter to Philemon?   ",
+        answers: {
+          a: "Titus",
+          b: "James",
+          c: "John Mark",
+          d: "Timothy"
+        },
+        correctAnswer: "d"
+      },
+      {
+        question: "  669. Which is the shortest Psalm?   ",
+        answers: {
+          a: "Psalm 150",
+          b: "Psalm 100",
+          c: "Psalm 117",
+          d: "Psalm 87"
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "901. One of the ten plagues of Egypt was the plague of boils, but which number was it? ",
+        answers: {
+          a: "Third",
+          b: "Seventh",
+          c: "Fifth",
+          d: "Sixth"
+        },
+        correctAnswer: "d"
+      },
+      {
+        question: "10. What relationship was Ruth to Naomi?  ",
+        answers: {
+          a: "Daughter",
+          b: "Niece",
+          c: "Daughter-in-law",
+          d: "Sister-in-law"
+        },
+        correctAnswer: "c"
+      },
+      {
+        question: "261. What was Jesus’ first miracle?  ",
+        answers: {
+          a: "Changing water into wine",
+          b: "Curing the nobleman's son",
+          c: "The great haul of fishes",
+          d: "Curing Peter's mother-in-law"
+        },
+        correctAnswer: "a"
+      },
+      {
+        question: "237. Which of David’s sons rebelled against him?  ",
+        answers: {
+          a: "Adonijah",
+          b: "Amnon",
+          c: "Absalom",
+          d: "Solomon"
+        },
+        correctAnswer: "c"
       },
     ];
     
